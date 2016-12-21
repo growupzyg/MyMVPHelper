@@ -126,7 +126,7 @@ public class ClassCreateHelper {
             writer.write("\t@Nullable\n");
             writer.write("\t@Override\n");
             writer.write("\tpublic View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {\n");
-            writer.write("\t\tView root = inflater.inflate(R.layout.fragment_"+getFirstLowerVariables(className)+",container,false);\n");
+            writer.write("\t\tView root = inflater.inflate(R.layout.fragment_"+className.toLowerCase()+",container,false);\n");
             writer.write("\t\tinitViews(root);\n");
             writer.write("\t\treturn root;\n");
             writer.write("\t}");
