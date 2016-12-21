@@ -1,1 +1,1 @@
-nothing
+配合 https://github.com/boredream/BorePlugin 插件可以自动根据layout生成findViewById方法
